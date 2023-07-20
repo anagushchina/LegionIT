@@ -40,5 +40,4 @@ public class Calculator {
         }
         return result;
     }
-
 }
