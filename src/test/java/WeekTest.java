@@ -38,5 +38,4 @@ public class WeekTest {
             Week.getDay(null);
         });
     }
-
 }
