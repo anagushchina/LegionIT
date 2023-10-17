@@ -2,10 +2,10 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-/src/main/java/Pages/
-/src/main/java/BookStoreOOP/
-/src/main/java/Bank/
-/src/main/java/lesson1/
+.idea/src/main/java/Pages/
+.idea/src/main/java/BookStoreOOP/
+.idea/src/main/java/Bank/
+.idea/src/main/java/lesson1/
 
 
 
