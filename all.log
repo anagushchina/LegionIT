@@ -1,9 +1,5 @@
-2023-07-19 11:21:48.912 [main] INFO  Week.Week - Running method getDay
-2023-07-19 11:21:48.915 [main] ERROR Week.Week - NullPointerException
-2023-07-19 11:21:48.988 [main] INFO  Week.Week - Running method getDay
-2023-07-19 11:21:49.001 [main] INFO  Week.Week - Running method getDay
-2023-07-19 11:21:49.009 [main] INFO  Week.Week - Running method getDay
-2023-07-19 11:21:49.013 [main] INFO  Week.Week - Running method getDay
-2023-07-19 11:21:49.017 [main] INFO  Week.Week - Running method getDay
-2023-07-19 11:21:49.021 [main] INFO  Week.Week - Running method getDay
-2023-07-19 11:21:49.031 [main] INFO  Week.Week - Running method getDay
+2023-10-17 16:26:56.518 [main] INFO  EnumsExeptions.Calculator - Running method calculate
+2023-10-17 16:26:56.531 [main] ERROR EnumsExeptions.Calculator - Something went wrong
+java.lang.NullPointerException: null
+	at EnumsExeptions.Calculator.calculate(Calculator.java:25) [classes/:?]
+	at EnumsExeptions.Main.main(Main.java:14) [classes/:?]

@@ -16,6 +16,7 @@ public class FileManager {
         fileManager.readFromFileWithFor(file);
         fileManager.deleteFile(file);
 
+        Game.writeNumOfPlayersPerTeam(Game.GameType.HOCKEY);
     }
 
     public void createFile(String fileName){
