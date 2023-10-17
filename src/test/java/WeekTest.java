@@ -13,27 +13,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class WeekTest {
 
-    @BeforeAll
-    public static void allTestsSetup(){
-        System.out.println("BeforeAll method");
-    }
-
-    @BeforeEach
-    public void eachTestSetup(){
-        System.out.println("BeforeEach method");
-    }
-
-    @AfterEach
-    public void eachTestTearDown(){
-        System.out.println("AfterEach method");
-    }
-
-    @AfterAll
-    public static void testTearDown(){
-        System.out.println("AfterAll method");
-    }
-
-
     static Stream<Arguments> dataProvider(){
         return Stream.of(
                 Arguments.of(-1298493752,"The number should be equal or larger than 1"),
